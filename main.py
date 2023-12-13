@@ -30,3 +30,13 @@ Neural nets LSTM engine only.
 Legacy + LSTM engines.
 Default, based on what is available.
 """
+myconfig = r"--psm 6 --oem 3 "
+text = pytesseract.image_to_string(PIL.Image.open("marselka.jpeg"), config=myconfig)
+file = open('myfile.txt', 'w')
+file.write(text)
+file.close()
+print()
+with open('myfile.txt') as f:
+    lines = f.readlines()
+    for i in lines:
+        print(i, end='')
