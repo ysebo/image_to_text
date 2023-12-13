@@ -46,4 +46,4 @@ If you have questions or need assistance, feel free to open an issue or reach ou
 **Happy coding!**
 
 
-This project will take your image#REPLACE WITH IMAGE FORMATS# , and write it's text to a new .txt file#SPECIFY FILE'S NAME"
+
